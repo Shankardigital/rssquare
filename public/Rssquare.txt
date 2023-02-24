@@ -1,0 +1,32 @@
+   <nav className={classes}  >
+                <div className="container">
+                    <button className="navbar-toggler" onClick={() => { setform(true) }} type="button">
+                        <span className="icon-bar" />
+                        <span className="icon-bar" />
+                        <span className="icon-bar" />
+                    </button>
+                    <a href="#main" className="navbar-brand">
+                        {/* <h5 className='text-white'>RSS Square</h5> */}
+                        {/* <ul className="nav navbar-nav ml-auto">
+                            <li className="nav-item"><a className="nav-link scrollto" href="#home">
+                            <h5>RSS Square</h5>
+                                </a></li>
+                            </ul> */}
+                        <h5 className="logo logo-sticky d-block d-md-none"><b style={{ fontWeight: "900" }}>RSS</b> Square</h5>
+                        <h5 className="logo d-none d-md-block text-white"><b style={{ fontWeight: "900" }}>RSS</b> Square</h5>
+                        {/* <img src={logo} alt="Laapp" className="logo logo-sticky d-block d-md-none" /> */}
+                        {/* <img src={logolight} alt="Laapp" className="logo d-none d-md-block" /> */}
+                    </a>
+                    <div className="collapse navbar-collapse" id="main-navbar">
+                        <div className="sidebar-brand"><a href="index.html"><img src={logo} alt="Laapp Template" className="logo" /></a></div>
+                        <ul className="nav navbar-nav ml-auto">
+                            <li className="nav-item"><a className="nav-link scrollto" href="#home">Home</a></li>
+                            <li className="nav-item"><a className="nav-link scrollto" href="#features">Features</a></li>
+                            <li className="nav-item"><a className="nav-link scrollto" href="#product">Product</a></li>
+                            <li className="nav-item"><a className="nav-link scrollto" href="#pricing">Pricing</a></li>
+                            <li className="nav-item"><a className="nav-link scrollto" href="#trial">Trial</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
